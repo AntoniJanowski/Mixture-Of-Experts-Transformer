@@ -4,8 +4,8 @@ This allows us to train bigger models under the same compute budget, making bett
 
 Bellow is the implementation of Mixture of Experts layer. It contains:
 
-    *A naive, loop based implementation of MoE
-    *Vectorized and parallelizable implementation
-    *A function that compares the outputs of both implementations, ensuring the correctness of the vectorized version.
+*A naive, loop based implementation of MoE
+*Vectorized and parallelizable implementation
+*A function that compares the outputs of both implementations, ensuring the correctness of the vectorized version.
 
 This implementation of MOE was made as an assignment for the Natural Language Processing course at Machine Learning Masters degree at the University of Warsaw. We were given a general structure of how the code needs to look (eg. what classes do we have to implement) but the code was written by myself.
